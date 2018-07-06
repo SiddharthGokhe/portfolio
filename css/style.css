@@ -90,21 +90,24 @@ body{
 	margin-top: 20px;
     background-color: #e74c3c;
 	border-radius: 20px;
-    box-shadow: 0 6px #e04738;
+    -webkit-box-shadow: 0 6px #e04738;
+            box-shadow: 0 6px #e04738;
     position: relative;
     font-size: 16px;
     font-weight: 300px;
 }
 
 .contactButton:hover{
-    box-shadow: 0 4px #e04738;
+    -webkit-box-shadow: 0 4px #e04738;
+            box-shadow: 0 4px #e04738;
     top:2px;
 	text-decoration: none;
     color: #fff;
 }
 
 .contactButton:active{
-    box-shadow: 0 0 #e04738;
+    -webkit-box-shadow: 0 0 #e04738;
+            box-shadow: 0 0 #e04738;
     top:6px;
 }
 
