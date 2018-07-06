@@ -83,18 +83,29 @@ body{
 }
 
 .contactButton{
-	color: #000;
+    outline: none;
+	color: #fff;
 	padding: 15px 20px;
 	display: inline-block;
 	margin-top: 20px;
-	border:1px solid #000;
-	border-radius: 2px;
+    background-color: #e74c3c;
+	border-radius: 20px;
+    box-shadow: 0 6px #e04738;
+    position: relative;
+    font-size: 16px;
+    font-weight: 300px;
 }
 
 .contactButton:hover{
+    box-shadow: 0 4px #e04738;
+    top:2px;
 	text-decoration: none;
-	color:#e74c3c;
-	background-color: #000;
+    color: #fff;
+}
+
+.contactButton:active{
+    box-shadow: 0 0 #e04738;
+    top:6px;
 }
 
 .copyrightSection{
